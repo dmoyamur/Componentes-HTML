@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrito</title>
+</head>
+<body>
+<h1>Carrito de Compras</h1>
+    <ul>
+        <li>Zapatos: $12</li>
+        <button onclick="contarProd1()" style="cursor:pointer">Agregar al Carrito</button>
+        <span id="prod1"></span>
+        <li>Camisas: $10</li>
+        <button onclick="contarProd2()" style="cursor:pointer">Agregar al Carrito</button>
+        <span id="prod2"></span>
+        <li>Pantalones: $11</li>
+        <button onclick="contarProd3()" style="cursor:pointer">Agregar al Carrito</button>
+    </ul>
+
+    <p>Total ítems agregados: <span id="totalitems"></span></p>
+    <p>Valor total de la compra: $<span id="totalprecio">0</span></p>
+
+    <button onclick="vaciarCarrito()">Vaciar Carrito</button>
+    
+    <script src="carrito.js"></script>
+
+</body>
+</html>
